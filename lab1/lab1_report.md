@@ -55,7 +55,20 @@ Date of finished:
   Traceback (most recent call last): File "C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiohttp\connector.py", line 1313, in _wrap_create_connection
   return await self._loop.create_connection(*args, **kwargs, sock=sock)
     ```  
-  * To be continued..
+  * Поптыка подключить ноутбук к мобильному интернету с включенным прокси не помогла
+  * Попробовала добавить подключение через прокси
+  <img width="439" height="200" alt="5" src="https://github.com/user-attachments/assets/7dc925b6-89c9-433b-879f-8bc0583dd5f7" />
+
+  Не сработало, но пришлось revoke токена, потому что не убрала его из .env
+  <img width="431" height="59" alt="6" src="https://github.com/user-attachments/assets/631000b8-a9b2-44e3-8db5-948022a8f26b" />
+
+  Также удалось проверить способность Cursor удалять внесенные изменения
+  <img width="447" height="307" alt="7" src="https://github.com/user-attachments/assets/f50d3207-c632-4965-a096-edc64ceed86e" />
+
+  
+
+
+
 ### Стек технологий (описан с помощью Grok)
 
 | Библиотека              | Почему выбран именно она |
