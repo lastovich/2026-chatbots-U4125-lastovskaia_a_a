@@ -1,0 +1,26 @@
+{
+  "students": [
+    {
+      "id": "f37e015f-a3c1-4eed-b5fc-3f717143c77b",
+      "name": "Ник @Nikolasstav",
+      "username": "Nikolasstav",
+      "created_at": "2026-03-31T19:02:13.354062"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "9d558950-7cf3-4adb-912c-e27b2291db2f",
+      "student_id": "f37e015f-a3c1-4eed-b5fc-3f717143c77b",
+      "scheduled_at": "2026-04-01 15:00",
+      "plan": "Глагол to be в настоящем времени",
+      "topic": "Глагол to be в настоящем времени",
+      "status": "scheduled",
+      "survey_answered": false,
+      "created_at": "2026-03-31T19:02:30.857994"
+    }
+  ],
+  "lesson_results": [],
+  "meta": {
+    "last_weekly_report_at": null
+  }
+}
